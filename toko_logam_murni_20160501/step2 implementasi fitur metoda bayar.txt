@@ -1,0 +1,74 @@
+step 
+1 back up semua database
+2 buat atau kopikan tabel trans_jual_detail_pemby
+3 insert data pada tabel trans_jual_detail_pemby
+4 deploy exe baru 
+4 tes laporan yang ada menggunakan menu laporan yang baru 
+5 tes transaksi tunai, kredit, debit
+6 cek laporan 
+7 batalkan transaksi tunai debit kredit
+
+// cek jumlah data
+select count(*) from trans_jual GROUP BY id_nota;
+
+//sebelumnya ada 2 metoda pembayaran kredit(piutang) dan cash/tunai
+//cek untuk transaksi tunai
+select id_nota,tot_sblm_pot,tot_potongan,total_harga,tot_bayar,tot_kembalian,0,'',0,'',0,'tunai'
+				from trans_jual 
+				where jenis_tran = 'Tunai' 
+				GROUP BY id_nota
+				
+//cek untuk transaksi kredit
+select id_nota,tot_sblm_pot,tot_potongan,total_harga,tot_bayar,tot_kembalian,0,'',0,'',0,'tunai'
+				from trans_jual 
+				where jenis_tran = 'Kredit' 
+				GROUP BY id_nota
+			
+//lalu lakukan penginputan data pada tabel trans_jual_detail_pemby dengan sintaks berikut
+//untuk tunai
+			INSERT INTO trans_jual_detail_pemby 
+				select 
+					id_nota,
+					tot_sblm_pot,
+					tot_potongan,
+					total_harga,
+					tot_bayar,
+					tot_kembalian,
+					0,
+					'',
+					0,
+					'',
+					0,
+					'tunai',
+					tanggal_nota,
+					jam_nota
+				from trans_jual 
+				where jenis_tran = 'Tunai' 
+				GROUP BY id_nota 
+
+//untuk kredit
+INSERT INTO trans_jual_detail_pemby 
+				select 
+					id_nota,
+					tot_sblm_pot,
+					tot_potongan,
+					total_harga,
+					tot_bayar,
+					tot_kembalian,
+					0,
+					'',
+					0,
+					'',
+					0,
+					'tunai',
+					tanggal_nota,
+					jam_nota
+				from trans_jual 
+				where jenis_tran = 'Kredit' 
+				GROUP BY id_nota 
+
+				
+
+
+
+

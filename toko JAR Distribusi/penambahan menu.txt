@@ -1,0 +1,16 @@
+laporan pembayaran piutang (detail)
+nama bengkel 
+no nota
+total harga
+tanggal transaksi 
+nom pembayaran 
+sisa piutang
+
+
+bisa tarik data excel 
+laporan hutang piutang bisa tarik excel 
+
+
+bug double klik 
+
+

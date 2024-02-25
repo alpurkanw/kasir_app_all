@@ -1,0 +1,15 @@
+- omset
+perintah :
+omset_tgl1-tgl2
+balasan 
+OMSET TransArt dari tgl1-tgl2 adalah 
+Rp sekian
+terdiri dari cash Rp sekian Kredit(piutang) Rp sekian
+terima kasih, ada lagi bos?
+
+- Pengeluaran 
+perintah :
+pengeluaran_tgl1-tgl2
+balasan :
+PENGELUARAN TransArt dari tgl1-tgl2 adalah Rp sekian
+terima kasih, tuan bos.

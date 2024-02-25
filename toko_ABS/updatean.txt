@@ -1,0 +1,12 @@
+update 
+tambah parameter pada file setparameter dengan 
+cal_modal = "1" //1 = otomatis rumus = (stok semula x harga beli semula)
+
+belum update data master
+update tipe data harga_beli = decimal koma 2 
+
+tambahan update 
+input harga beli otomatis
+laporan monitoring penjualan peritem di update agar bisa menambahkan string "000000" di depan 
+perbaikan prosedur submit transaksi (pengecekan jika tunai dan jika kredit)
+penmabahan menu pembayaran piutang 

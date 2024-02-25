@@ -1,0 +1,25 @@
+-- SELECT id,jum_stok FROM `pos_barang` where id = 63;
+update `pos_barang` set kode_barang = right(CONCAT("000000",id),6) 
+-- select right(CONCAT("000000",id),6) as kode from pos_barang
+SELECT kode_barang FROM `pos_barang` 
+-- update `pos_barang` set kode_barang = ""
+
+insert field kode_barang lenght 25
+update isi nya = 000000+id , 6
+update tabel transjual kode_barang panjang = 25
+update data transjual where jenis_tran CASH menjadi Tunai
+-- update trans_jual set jenis_tran = "Tunai" where jenis_tran = "Cash"
+-- select count(*) from trans_jual where jenis_tran = "Cash"
+
+update transbeli kode barang sesuaikan dengan master barang
+-- update `trans_jual` set kode_barang = right(CONCAT("000000",kode_barang),6) 
+
+ringkasan
+-- SELECT count(*) FROM `pos_barang`;
+-- update `pos_barang` set kode_barang = right(CONCAT("000000",id),6) 
+-- update trans_jual set jenis_tran = "Tunai" where jenis_tran = "Cash"
+-- select count(*) from trans_jual where jenis_tran = "Cash"
+-- select count(*) from trans_jual
+-- update `trans_jual` set kode_barang = right(CONCAT("000000",kode_barang),6) 
+
+-- update `trans_beli` set kode_barang = right(CONCAT("000000",kode_barang),6) 

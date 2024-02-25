@@ -1,0 +1,9 @@
+nama customer : toko susu padma
+alamat : jalan lap tembak
+
+deskripsi aplikasi : 
+versi 1.2 2015
+aplikasi ini cocok untuk toko yang produknya untuk dikonsumsi(makanan dll)
+aplikasi ini memiliki fitur penjualan dengan harga bertingkat, terdapat expiredate untuk data barang
+mempunyai fitu monitoring barang paling laku dan customer paling aktif
+

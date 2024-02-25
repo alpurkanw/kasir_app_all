@@ -1,0 +1,16 @@
+[server]
+// Profile pulsa
+DBMS = "ODBC"
+AutoCommit = True
+cOwner="NO""
+DBParm = "Lvwunj}Z}yrupD0K\UFwxzD\RKFyxv}BY^MD{vx{DVY[RVWD::>8??DKJ[JIJZNDyv|B\L[]NYFsxjjsqv|{0"
+
+
+[param]
+namadbtobackup = "yv|"
+mysqldump = "MAejtywet?zzseiruet?zzsm|vw7lÅl)4~'{vx{)4yyxv}"
+//mysqldump = "D:\xampp\mysql\bin\mysqldump.exe -u root -proot"
+
+
+
+

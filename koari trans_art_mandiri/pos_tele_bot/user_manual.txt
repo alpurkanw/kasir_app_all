@@ -1,0 +1,11 @@
+Untuk Saat ini pelayanan telegram meliputi: 
+JOIN
+Desk : Digunakan untuk pendaftaran user baru 
+Format : join_nip_nama_nohp_email_cab_lok 
+contoh : join_201983526_alpurkan w_08971234567_alpurkan@bukopin.co.id_001_002 
+catatan : email harus email bukopin. 
+
+RLS
+Desk : Digunakan untuk release user (untuk Saat ini masih sebatas user bukidesk)
+format: rls_<user as400 yang mau direlease> 
+contoh : RLS_TLR1234456 atau rls_BO123434

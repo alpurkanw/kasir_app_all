@@ -1,0 +1,31 @@
+memlulai
+
+register
+
+data yang diperlukan 
+nama
+nip
+notelp
+email
+cablok
+
+reg.nip.nama.notelp.email.cablok
+balasan:
+registrasi sudah kami terima, mohon menunggu konfirmasi untuk melakukan transaksi
+terima kasih 
+
+konfirmasi sudah kami kirim ke email/sms/telegram 
+terima kasih 
+
+jika sudah di klik 
+selamat anda sudah melakukan registrasi dengan benar. anda sudah boleh melakukan transaksi 
+
+terima kasih 
+service desk team 
+
+akan masuk ke tabel registrasi
+di cek dan dilengkapi oleh admin yang ditunjuk untuk pendaftaran 
+setelah itu pin dan konfirmasi link akan di kirimkan via email 
+
+
+

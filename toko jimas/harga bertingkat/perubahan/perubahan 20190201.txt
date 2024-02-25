@@ -1,0 +1,8 @@
+perubahan pada tabel:
+tran jual (jum stok 10,1)
+tran beli (jum stok 10,1)
+trans koreksi jumbar(jum awal, ubah, akhir jadi 10,1)
+
+tambahan
+untuk cab manna: 
+tabel_barang jum_stok (10.1)

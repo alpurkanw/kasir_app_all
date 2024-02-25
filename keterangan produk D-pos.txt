@@ -1,0 +1,4 @@
+jenis D-pos
+001 sering di pakai untuk toko bangunan 
+002 digunakan untuk toko CCTV/HP atau barang elektronik sejenis 
+	fitur : ada barcode + barcode serial number dan trace tanggal penjualan untuk cek garansi

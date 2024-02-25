@@ -1,0 +1,12 @@
+update kode barang gagal ... ok 
+blok  harga barang jika sudah ada gagal... ok 
+jumlah stok jangan pakai koma ok 
+
+
+
+get
+this.backcolor = RGB(255,255,0)
+
+
+los
+this.backcolor = RGB(255,255,255)

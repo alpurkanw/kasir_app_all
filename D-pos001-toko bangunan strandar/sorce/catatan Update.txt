@@ -1,0 +1,12 @@
+Tanggal : 22-04-2021
+Deskripsi:
+di update pada bagian menu :
+Laporan Monitoring Barang Teraktif
+	perubahan dilakukan untuk memberikan info yang akurat mengenai barang yang teraktif(dijual) dalam periode tertentu
+	dilihat dari Omset(Total Jual) dan Margin(Keuntungan)
+
+Cara Update:
+- Matikan seluruh Menu Kasir yang sedang berjalan
+- Copy seluruh file(pos.pbd, pos_dw.pbd, pos_window.pbd, kasir_app.exe)
+- Paste pada folder program kasir yang ada pada komputer kita (pilih Replace untuk semua File tersebut)
+

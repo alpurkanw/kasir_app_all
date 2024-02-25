@@ -1,0 +1,11 @@
+User Profile
+
+Nama Toko : Simurah
+Alamat : bekasi
+PIC : 
+No Telp 
+Sekilas :
+toko Simurah adalah sebuah toko kelontong yang beralamat di bekasi  dalam menjalankan usahanya toko 
+simurah menggunakan metoda 3 harga 
+tidak menggunakan diskon per item 
+tidak menggunakan potonga manual (langsung otomatis 3 tingkat harga)
